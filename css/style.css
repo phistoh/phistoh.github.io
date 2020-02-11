@@ -1,1 +1,152 @@
-/* tbd */
+@font-face {
+	font-family: "nameFont";
+	src: url("../resources/Austie Bost You Wear Flowers Solid.ttf");
+}
+
+@font-face {
+	font-family: "flowerFont";
+	src: url("../resources/fotograami-flower.ttf");
+}
+
+@font-face {
+	font-family: "dropCaps";
+	src: url("../resources/rosecaps.ttf");
+}
+
+@font-face {
+	font-family: "Althea";
+	src: url("../resources/Althea-Regular.ttf");
+}
+
+body {
+	background-image: url('../img/bg.jpg');
+}
+
+div {
+	max-width: 1000px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.landscape {
+	width: 100%;
+	margin: 10px 0px 20px 0px;
+	border: 1px solid #551A8B;
+}
+
+img.float-left{
+	float: left;
+	margin: 4px 10px 0px 0px; 
+}
+
+img.float-right{
+	float: right;
+	margin: 4px 0px 0px 10px; 
+}
+
+img.border {
+	border: 1px solid #551A8B;
+}
+
+img.zoom:hover {
+	transform: scale(2);
+}
+
+.name-text {
+	text-align: center;
+	line-height: 96px;
+	font-family: nameFont, Althea, Candara;
+	font-size:90px;
+}
+
+.class-text {
+	text-align: center;
+	font-family: Althea, Gabriola, Candara;
+	font-size: 36px;
+}
+
+.tldr-text {
+	text-align: center;
+	font-family: Althea, Gabriola, Candara;
+	font-size: 21px;
+	color: #505050;
+}
+
+.flower-border {
+	text-align: center;
+	line-height: 76px;
+	font-family: flowerFont;
+	font-size:60px;
+	margin-top: 10px;
+	color: #505050;
+}
+
+.main-text {
+	text-align: justify;
+	line-height: 36px;
+	font-family: Althea, Gabriola, Candara;
+	font-size: 21px;
+}
+
+.portrait-text {
+	text-align: center;
+	line-height: 26px;
+	font-family: Althea, Gabriola, Candara;
+	font-size: 21px;
+}
+
+.back-text {
+	text-align: center;
+	line-height: 26px;
+	font-family: Althea, Gabriola, Candara;
+	font-size: 18px;
+}
+
+.flower {
+	color: #505050;
+	font-family: flowerFont;
+}
+
+p {
+	margin-bottom: 80px;
+}
+
+p::first-letter {
+	font-family: dropCaps;
+	color: #330066;
+	float: left;
+	font-size: 96px;
+	margin: 4px 2px 0 0;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background-color: #9999ff;
+}
+
+a:active {
+	color: black;
+	background-color: #9999ff;
+}
+
+
+.portraits {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.portraits a {
+    margin: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+}

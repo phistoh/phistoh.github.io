@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "nameFont";
+	src: url("./resources/Austie Bost You Wear Flowers Solid.ttf");
+}
+
+@font-face {
+	font-family: "flowerFont";
+	src: url("./resources/fotograami-flower.ttf");
+}
+
+@font-face {
+	font-family: "dropCaps";
+	src: url("./resources/rosecaps.ttf");
+}
+
+@font-face {
+	font-family: "Althea";
+	src: url("./resources/Althea-Regular.ttf");
+}
+
+body {
+	background-image: url('./img/bg.jpg');
+}
