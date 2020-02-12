@@ -75,52 +75,66 @@ img.zoom:hover {
 
 .name-text {
 	text-align: center;
-	line-height: 96px;
+	/* line-height: 96px; */
+	line-height: calc(64px + (96 - 64) * ((100vw - 300px) / (1600 - 300)));
 	font-family: nameFont, Althea, Candara;
-	font-size:90px;
+	/* font-size:90px; */
+	font-size: calc(60px + (90 - 60) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .class-text {
 	text-align: center;
 	font-family: Althea, Gabriola, Candara;
-	font-size: 36px;
+	/* font-size: 36px; */
+	font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .tldr-text {
 	text-align: center;
 	font-family: Althea, Gabriola, Candara;
-	font-size: 21px;
+	/* font-size: 21px; */
+	font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1600 - 300)));
 	color: #505050;
 }
 
 .flower-border {
 	text-align: center;
-	line-height: 76px;
+	/* line-height: 76px; */
+	line-height: calc(51px + (76 - 51) * ((100vw - 300px) / (1600 - 300)));
 	font-family: flowerFont;
-	font-size:60px;
+	/* font-size:60px; */
+	font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
 	margin-top: 10px;
 	color: #505050;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .main-text {
 	text-align: justify;
-	line-height: 36px;
+	/* line-height: 36px; */
+	line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
 	font-family: Althea, Gabriola, Candara;
-	font-size: 21px;
+	/* font-size: 21px; */
+	font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .portrait-text {
 	text-align: center;
-	line-height: 26px;
+	/* line-height: 26px; */
+	line-height: calc(17px + (26 - 17) * ((100vw - 300px) / (1600 - 300)));
 	font-family: Althea, Gabriola, Candara;
-	font-size: 21px;
+	/* font-size: 21px; */
+	font-size: calc(14px + (21 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .back-text {
 	text-align: center;
-	line-height: 26px;
+	/* line-height: 26px; */
+	line-height: calc(17px + (26 - 17) * ((100vw - 300px) / (1600 - 300)));
 	font-family: Althea, Gabriola, Candara;
-	font-size: 18px;
+	/* font-size: 18px; */
+	font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .flower {
@@ -136,7 +150,8 @@ p::first-letter {
 	font-family: dropCaps;
 	color: #330066;
 	float: left;
-	font-size: 96px;
+	/* font-size: 96px; */
+	font-size: calc(64px + (96 - 64) * ((100vw - 300px) / (1600 - 300)));
 	margin: 4px 2px 0 0;
 }
 
