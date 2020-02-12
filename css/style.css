@@ -35,14 +35,34 @@ img.landscape {
 	border: 1px solid #551A8B;
 }
 
-img.float-left{
+img.float-left {
 	float: left;
 	margin: 4px 10px 0px 0px; 
 }
 
-img.float-right{
+img.float-right {
 	float: right;
 	margin: 4px 0px 0px 10px; 
+}
+
+@media (max-width: 512px) {
+   img.float-right {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	
+	img.float-left {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
 }
 
 img.border {
