@@ -141,36 +141,31 @@ img.zoom:hover {
 
 @media(max-width: 600px) {
    .name-text {
-		line-height: 64px;
-		font-size: 60px;
+		line-height: 72px;
+		font-size: 68px;
 	}
 
 	.class-text {
-		font-size: 24px;
+		font-size: 27px;
 	}
 
 	.tldr-text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.flower-border {
-		line-height: 51px;
-		font-size: 40px;
+		line-height: 57px;
+		font-size: 45px;
 	}
 
 	.main-text {
-		line-height: 24px;
-		font-size: 14px;
+		line-height: 27px;
+		font-size: 16px;
 	}
 
 	.portrait-text {
-		line-height: 17px;
-		font-size: 14px;
-	}
-
-	.back-text {
-		line-height: 17px;
-		font-size: 12px;
+		line-height: 19px;
+		font-size: 16px;
 	}
 }
 
